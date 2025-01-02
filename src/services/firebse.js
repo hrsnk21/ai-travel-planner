@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider, signInWithPopup, signOut, setPersistence, browserLocalPersistence } from 'firebase/auth';
 
 const firebaseConfig = {
-    apiKey: "yourapi",
+    apiKey: "******",
     authDomain: "wanderwise-8c584.firebaseapp.com",
     projectId: "wanderwise-8c584",
     storageBucket: "wanderwise-8c584.firebasestorage.app",
