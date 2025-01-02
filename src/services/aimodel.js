@@ -1,7 +1,7 @@
  
   import { GoogleGenerativeAI } from "@google/generative-ai"
   
-  const apiKey = "AIzaSyC6KlnbI9jLNOSck9qgNfIOb0KZMyfNf8o"
+  const apiKey = "yourapi"
   const genAI = new GoogleGenerativeAI(apiKey);
    
   const model = genAI.getGenerativeModel({
